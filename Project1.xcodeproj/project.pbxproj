@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		738D637D1E659B4D00E63381 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738D637C1E659B4D00E63381 /* DetailViewController.swift */; };
 		739C28A21E62DC8E00B89E76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739C28A11E62DC8E00B89E76 /* AppDelegate.swift */; };
 		739C28A41E62DC8E00B89E76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739C28A31E62DC8E00B89E76 /* ViewController.swift */; };
 		739C28A71E62DC8E00B89E76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739C28A51E62DC8E00B89E76 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		738D637C1E659B4D00E63381 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		739C289E1E62DC8E00B89E76 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		739C28A11E62DC8E00B89E76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		739C28A31E62DC8E00B89E76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				739C28A11E62DC8E00B89E76 /* AppDelegate.swift */,
 				739C28A31E62DC8E00B89E76 /* ViewController.swift */,
 				739C28A51E62DC8E00B89E76 /* Main.storyboard */,
+				738D637C1E659B4D00E63381 /* DetailViewController.swift */,
 				739C28A81E62DC8E00B89E76 /* Assets.xcassets */,
 				739C28AA1E62DC8E00B89E76 /* LaunchScreen.storyboard */,
 				739C28AD1E62DC8E00B89E76 /* Info.plist */,
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				738D637D1E659B4D00E63381 /* DetailViewController.swift in Sources */,
 				739C28A41E62DC8E00B89E76 /* ViewController.swift in Sources */,
 				739C28A21E62DC8E00B89E76 /* AppDelegate.swift in Sources */,
 			);
@@ -347,6 +351,7 @@
 				739C28B21E62DC8E00B89E76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
